@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AliyunOSSiOS (2.10.16)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.1.17)
+  - SDWebImage (5.12.6):
+    - SDWebImage/Core (= 5.12.6)
+  - SDWebImage/Core (5.12.6)
+  - TZImagePickerController (3.6.9)
+  - YTKNetwork (3.0.6):
+    - AFNetworking/NSURLSession (~> 4.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AliyunOSSiOS
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.14)
+  - SDWebImage
+  - TZImagePickerController (~> 3.6.0)
+  - YTKNetwork
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - TZImagePickerController
+    - YTKNetwork
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AliyunOSSiOS: d624effdd24535da414a2bacf0027bedf64cc90e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
+  SDWebImage: a47aea9e3d8816015db4e523daff50cfd294499d
+  TZImagePickerController: 2cad3db94ba70eb947d26c10ff5c66c9a93798c8
+  YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: a6e5ca733c4396790315ac43acae06e1c995d389
+
+COCOAPODS: 1.10.0
