@@ -1,62 +1,229 @@
 PODS:
-  - AFNetworking/NSURLSession (4.0.1):
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.1)
-  - AFNetworking/Security (4.0.1)
-  - AFNetworking/Serialization (4.0.1)
-  - AliyunOSSiOS (2.10.16)
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.6.5)
+  - DZNEmptyDataSet (1.7.3)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GKNavigationBar (1.8.0):
+    - GKNavigationBar/GestureHandle (= 1.8.0)
+    - GKNavigationBar/NavigationBar (= 1.8.0)
+  - GKNavigationBar/GestureHandle (1.8.0)
+  - GKNavigationBar/NavigationBar (1.8.0)
+  - GKPageScrollView (1.8.0):
+    - GKPageScrollView/Objc (= 1.8.0)
+  - GKPageScrollView/Objc (1.8.0)
+  - GKPageSmoothView (1.8.0):
+    - GKPageSmoothView/Objc (= 1.8.0)
+  - GKPageSmoothView/Objc (1.8.0)
+  - HexColors (2.2.1)
+  - JXCategoryViewExt/Core (1.1.7)
+  - JXCategoryViewExt/Indicator/AlignmentLine (1.1.7):
+    - JXCategoryViewExt/Indicator/Line
+  - JXCategoryViewExt/Indicator/Line (1.1.7):
+    - JXCategoryViewExt/Core
+  - JXCategoryViewExt/SubTitle (1.1.7):
+    - JXCategoryViewExt/Title
+  - JXCategoryViewExt/SubTitleImage (1.1.7):
+    - JXCategoryViewExt/SubTitle
+  - JXCategoryViewExt/Title (1.1.7):
+    - JXCategoryViewExt/Core
+  - libOpenInstallSDK (2.5.2)
+  - MACTableView (1.1.0):
+    - DZNEmptyDataSet (~> 1.7.2)
+    - MJRefresh (~> 3.1.0)
   - Masonry (1.1.0)
-  - MBProgressHUD (1.2.0)
-  - MJExtension (3.0.17)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.15.1)
   - MJRefresh (3.1.17)
-  - SDWebImage (5.12.6):
-    - SDWebImage/Core (= 5.12.6)
-  - SDWebImage/Core (5.12.6)
-  - TZImagePickerController (3.6.9)
-  - YTKNetwork (3.0.6):
-    - AFNetworking/NSURLSession (~> 4.0)
+  - MMPopupView (1.7.2):
+    - Masonry
+  - pop (1.0.10)
+  - Protobuf (3.19.1)
+  - QY_iOS_SDK (7.7.0):
+    - QY_NIMSDK_LITE (= 8.9.3)
+  - QY_NIMSDK_LITE (8.9.3)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SJBaseVideoPlayer (3.6.7):
+    - Masonry
+    - SJBaseVideoPlayer/AVPlayer (= 3.6.7)
+    - SJBaseVideoPlayer/Common (= 3.6.7)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.6.7):
+    - Masonry
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.6.7):
+    - Masonry
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.6.7):
+    - Masonry
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.58):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.58)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.58)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.58)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.58)
+  - SJUIKit/ObserverHelper (0.0.0.58)
+  - SJUIKit/Queues (0.0.0.58)
+  - SJUIKit/SQLite3 (0.0.0.58):
+    - SJUIKit/SQLite3/Core (= 0.0.0.58)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.58)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.58):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.58):
+    - YYModel
+  - SJVideoPlayer (3.3.3):
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJVideoPlayer/Common (= 3.3.3)
+    - SJVideoPlayer/ControlLayers (= 3.3.3)
+    - SJVideoPlayer/ResourceLoader (= 3.3.3)
+  - SJVideoPlayer/Common (3.3.3):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.3.3):
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.3.3):
+    - SJBaseVideoPlayer (>= 3.6.0)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - YNPageViewController (0.2.6)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
   - AliyunOSSiOS
-  - Masonry (~> 1.1.0)
-  - MBProgressHUD
+  - DZNEmptyDataSet (~> 1.7.2)
+  - FMDB (~> 2.6.2)
+  - GKNavigationBar
+  - GKPageScrollView
+  - GKPageSmoothView
+  - JXCategoryViewExt/Indicator/AlignmentLine
+  - JXCategoryViewExt/SubTitleImage
+  - libOpenInstallSDK
+  - MACTableView (~> 1.1.0)
+  - MBProgressHUD (~> 1.0.0)
   - MJExtension (~> 3.0.13)
-  - MJRefresh (~> 3.1.14)
-  - SDWebImage
-  - TZImagePickerController (~> 3.6.0)
-  - YTKNetwork
+  - MJRefresh (~> 3.1.12)
+  - MMPopupView (~> 1.7)
+  - pop (~> 1.0.9)
+  - Protobuf (~> 3.19.1)
+  - QY_iOS_SDK
+  - SDCycleScrollView (~> 1.66)
+  - SDWebImage (~> 4.0.0)
+  - SJVideoPlayer
+  - TSMessages (~> 0.9.12)
+  - VTMagic
+  - YNPageViewController
   - YYKit
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - AliyunOSSiOS
+    - DZNEmptyDataSet
+    - FMDB
+    - GKNavigationBar
+    - GKPageScrollView
+    - GKPageSmoothView
+    - HexColors
+    - JXCategoryViewExt
+    - libOpenInstallSDK
+    - MACTableView
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
+    - MMPopupView
+    - pop
+    - Protobuf
+    - QY_iOS_SDK
+    - QY_NIMSDK_LITE
+    - SDCycleScrollView
     - SDWebImage
-    - TZImagePickerController
-    - YTKNetwork
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SJVideoPlayer
+    - TSMessages
+    - VTMagic
+    - YNPageViewController
     - YYKit
+    - YYModel
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  AliyunOSSiOS: d624effdd24535da414a2bacf0027bedf64cc90e
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AliyunOSSiOS: 6d7f1f6aae0176095d147a88d60b23bbef93e0b7
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GKNavigationBar: b40644da4d9f783d3af3adc2b3477a0faeece551
+  GKPageScrollView: cbc9e94072b0e3c5d70e7bdaa776d7f740ee3602
+  GKPageSmoothView: 30e19dcb267386dfb9abeb755e6c8cb71474d60b
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  JXCategoryViewExt: b4a05d3fb001ea6cbc72e3092ab5bcaff62b7dde
+  libOpenInstallSDK: c0f724fcfabcbfe933774230b5738ca2744d9fba
+  MACTableView: 3f378d6eb8d13f3abc30c4e4a804660ef8523e19
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
-  SDWebImage: a47aea9e3d8816015db4e523daff50cfd294499d
-  TZImagePickerController: 2cad3db94ba70eb947d26c10ff5c66c9a93798c8
-  YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  Protobuf: 3724efa50cb2846d7ccebc8691c574e85fd74471
+  QY_iOS_SDK: 497c5c66fb73cad0e9f2cfd3830051fc7d36e45a
+  QY_NIMSDK_LITE: d129933c2cf47b10b2756ff81e1c7219e1046998
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SJBaseVideoPlayer: 52ab45c54521c9988cb5a4d9abad444152248800
+  SJUIKit: 86d5b16f8b8b17274ef8805acf965e4014629e15
+  SJVideoPlayer: bc8aa86a2922dc7416822f88bdb39d6baf4d9bd5
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  YNPageViewController: 33040d429adf0b415d4449ffeec848d8339934ea
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 9c59c607314414107586c63ebfa47e3936c74d76
+PODFILE CHECKSUM: 5d6b6bc8e6605eb4faf457dc7030bedbd842c021
 
 COCOAPODS: 1.10.0
